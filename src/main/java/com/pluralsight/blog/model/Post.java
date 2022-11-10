@@ -49,6 +49,11 @@ public class Post {
         return body;
     }
 
+    public String getLeadBody() {
+        String concat = lead + " " + body;
+        return concat;
+    }
+
     public void setBody(String body) {
         this.body = body;
     }
