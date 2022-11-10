@@ -14,7 +14,7 @@ public class PostRepository {
     private final List<Post> ALL_POSTS = new ArrayList<>(Arrays.asList(
             new Post(1l, "Earbuds",
                     "You have got to try these in your ears.",
-                    "So tiny and can even block the sounds of screaming toddlers.",
+                    "So tiny and can even block the sounds of screaming toddlers if you so desire.",
                     "Sarah Holderness", new Date()),
             new Post(2l, "Smart Speakers",
                     "Smart speakers listen to you all right.",
